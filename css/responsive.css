@@ -1,0 +1,201 @@
+@media (max-width: 1500px) {
+}
+
+@media (max-width: 1299.98px) {
+  .presentation-area .section-title,
+  .project-area .project-title {
+    left: -115px;
+    top: 29%;
+  }
+
+  .presentation-area .section-title {
+    left: -115px;
+    top: 29%;
+  }
+}
+@media (max-width: 1199.98px) {
+  .presentation-area .section-title {
+    transform: rotate(0);
+    position: inherit;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    left: inherit;
+    right: inherit;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 12px 0;
+  }
+  .navbar-collapse {
+    padding: 0px;
+    padding-right: 2px;
+  }
+
+  .navbar .menu > .nav-item,
+  .navbar_fixed.menu_one .menu > .nav-item {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(237, 237, 237, 0.5);
+  }
+  .navbar .menu > .nav-item > .nav-link.active::before {
+    display: none;
+  }
+  .navbar .menu > .nav-item + .nav-item {
+    margin-left: 0;
+  }
+  .navbar .menu > .nav-item.submenu .dropdown-menu::before {
+    display: none;
+  }
+  .navbar .menu > .nav-item.submenu .dropdown-menu .nav-item {
+    padding: 0 40px 0 20px;
+  }
+  .menu > .nav-item.submenu .dropdown-menu {
+    padding: 12px 0;
+  }
+  .navbar-toggler {
+    box-shadow: none;
+    padding: 0;
+  }
+  .menu > .nav-item.submenu .dropdown-menu .nav-item + .nav-item {
+    margin-top: 10px;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-collapse {
+    background-color: #fff;
+    padding: 10px;
+  }
+  .navbar .menu {
+    padding: 5px 0px;
+  }
+  .navbar .menu .nav-item .mobile_dropdown_icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #6b707f;
+    line-height: 42px;
+    font-size: 20px;
+    display: inline-block;
+    opacity: 0.6;
+  }
+  .navbar .menu > .nav-item.submenu .dropdown-menu {
+    box-shadow: none;
+    margin-top: 5px;
+    max-height: none !important;
+  }
+  .menu > .nav-item.active .mobile_dropdown_icon {
+    color: #ac083f;
+  }
+  .navbar .right-nav {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .menu > .nav-item > .nav-link {
+    color: #000;
+  }
+  .footer-area {
+    background-size: auto 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .banner-area-one h1 {
+    font-size: 44px;
+    line-height: 60px;
+  }
+  .presentation-area .section-title,
+  .project-area .project-title,
+  .steps-area .section-title {
+    transform: rotate(0);
+    position: inherit;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    left: inherit;
+    right: inherit;
+    margin-bottom: 30px;
+    font-size: 44px;
+  }
+}
+@media (max-width: 575.98px) {
+  .presentation-area .section-title,
+  .project-area .project-title,
+  .steps-area .section-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .banner-area-one h1 {
+    padding-top: 162px;
+    font-size: 35px;
+    line-height: 60px;
+    max-width: 400px;
+  }
+  .banner-area-one .bg-shape .shape:nth-child(2) {
+    left: 0;
+    top: 0;
+  }
+
+  .banner-area-one .banner-img .theme-btn {
+    position: inherit;
+    bottom: inherit;
+    right: 0;
+  }
+  .banner-area-one .bg-shape .shape img {
+    scale: 0.3;
+  }
+  .banner-area-one .bg-shape .shape:nth-child(3) {
+    right: 0;
+    top: -350px;
+  }
+  .single-presentation-widget {
+    padding: 18px 28px 28px 25px;
+  }
+
+  .footer-area label {
+    font-size: 18px;
+  }
+  .footer-area .form-control {
+    height: 52px;
+  }
+  .banner-area-one {
+    padding-bottom: 100px;
+  }
+
+  .banner-area-one h1 span::before {
+    height: 45px;
+    background-size: contain;
+    background-position: center;
+    top: inherit;
+    bottom: -10px;
+  }
+}
+@media (max-width: 400px) {
+  .banner-area-one {
+    padding-bottom: 50px;
+  }
+  .banner-area-one h1 span::before {
+    width: 90vw;
+    top: inherit;
+    bottom: 0;
+    left: inherit;
+    right: 0;
+  }
+  .banner-area-one .banner-img .theme-btn {
+    transform: translateX(25%);
+  }
+
+  .banner-area-one h1 {
+    padding-top: 162px;
+    font-size: 34px;
+    line-height: 53px;
+  }
+}
+
+@media (min-width: 992px) {
+}
